@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+
+
+
+.titulo {
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 3rem;
+    color: #333;
+    font-family: 'Oswald';
+}
+
+.titulo::after {
+    content: "";
+    display: block;
+    width: 100%;
+    max-width: 185px;
+    height: 5px;
+    background-color: #B6CEE4;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.custom-navbar {
+    background-color: #b6cee4 !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.descricao {
+    text-align: center; 
+    margin-bottom: 40px; 
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 5px;
+   
+    font-family: 'Lato';
+}
+
+
+
+
+.content-container {
+    background-color: #fff; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; 
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 40px 0;
+    gap: 20px;
+    text-align: left;
+}
+
+.content-image {
+    width: 50%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.content-text {
+    font-family: 'Lato';
+    height: 200px;
+    width: 50%;
+}
+
+.content-text h2 {
+    font-family: 'Oswald';
+    font-size: 2rem;
+    color: #333;
+}
+
+
+.content-text p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px; 
+    object-fit: cover; 
+}
+
+#carouselExampleCaptions {
+    max-width: 1300px; 
+    margin: 0 auto; 
+}
+
+.cartitle{
+    font-family: 'Oswald';
+    font-size: 50px;
+}
+
+.cardesc{
+    font-size: 25px;
+}
+
+.img-fixed {
+    height: 330px; 
+    object-fit: cover; 
+  }
+  
+
+
+/*RESPONSIVIDADE*/
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .descricao {
+        font-size: 1rem;
+    }
+    
+   
+
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-image, .content-text {
+        width: 100%;
+    }
+
+    .content-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .content-text p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .descricao {
+        font-size: 0.9rem;
+    }
+
+    button.prev, button.next {
+        padding: 8px;
+        font-size: 20px;
+    }
+
+    .content-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .content-text p {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+

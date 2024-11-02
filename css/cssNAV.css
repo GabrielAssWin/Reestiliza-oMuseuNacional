@@ -1,0 +1,94 @@
+/* Cabeçalho e Navegação */
+header {
+    background-color: #b6cee4; /* Azul médio */
+    padding: 15px 0;
+}
+
+#container-header {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tituloo3{
+    font-family: 'Oswald';
+}
+
+#logo h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-toggler .fas {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #1100ff; /* Cor do link */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #2600ff; /* Cor de fundo ao passar o mouse */
+    color: #ffffff;
+}
+
+/* Responsividade Navbar */
+@media (max-width: 768px) {
+    #container-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0; /* Espaço vertical entre os itens no mobile */
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,161 @@
+/* Normalize e Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #f2f2f2;
+    padding: 0 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+/* Seção Principal */
+#principal {
+    padding: 2rem 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Conteúdo de Acervo */
+#capa img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+#acervo {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+#acervo h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+#acervo p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Estilo das Coleções */
+.colecao {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.colecao:last-child {
+    border-bottom: none;
+}
+
+.colecao h3 {
+    font-size: 1.4rem;
+    color: #444;
+}
+
+.colecao p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Botão "Veja mais" */
+.ver-mais {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #0056b3;
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+
+.ver-mais:hover {
+    text-decoration: underline;
+    color: #003d82;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+footer ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #ddd;
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Redes Sociais */
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media li img {
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,164 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    background-color: #F5F0E1;
+}
+
+/* Estrutura principal */
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#logo h1 a {
+    color: #1A374D;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1A374D;
+}
+
+/* Seção Principal */
+#principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+#capa img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Conteúdo e artigos */
+#conteudo {
+    flex: 3;
+}
+
+#conteudo section,
+aside section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #1A374D;
+    margin-bottom: 10px;
+}
+
+article {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+/* Formulário de visita */
+#visita form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campo {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+.botao {
+    padding: 10px;
+    background-color: #FFD700;
+    color: #1A374D;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #1A374D;
+    color: #FFD700;
+}
+
+/* Galeria de fotos */
+#galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #1A374D;
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #principal {
+        flex-direction: column;
+    }
+
+    #galeria img {
+        width: 48%;
+    }
+}

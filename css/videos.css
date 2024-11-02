@@ -1,0 +1,38 @@
+/* Galeria de Vídeos */
+#videos {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#videos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.video-item {
+    margin-bottom: 2rem;
+}
+
+.video-item h3 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-top: 0.5rem;
+}
+
+.video-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Links de rodapé */
+footer .navbar-nav li a:hover {
+    color: #ddd;
+}
+

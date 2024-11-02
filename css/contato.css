@@ -1,0 +1,112 @@
+body {
+    font-family: 'Lato', sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    line-height: 1.6; 
+    padding: 20px; 
+}
+
+.titulo {
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 3rem;
+    color: #333;
+    font-family: 'Oswald';
+}
+
+.custom-navbar {
+    background-color: #b6cee4 !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.titulo::after {
+    content: "";
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: 5px;
+    background-color: #B6CEE4;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.descricao {
+    text-align: center; 
+    margin-bottom: 40px; 
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 5px;
+   
+    font-family: 'Lato';
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 0 20px; 
+  }
+  
+  form {
+    background-color: #f9f9f9;
+    padding: 30px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #867027;
+    width: 100%; 
+    max-width: 1500px; 
+    box-sizing: border-box;
+  }
+  
+
+
+  
+/*RESPONSIVIDADE*/
+@media (max-width: 768px) {
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .descricao {
+        font-size: 1rem;
+    }
+
+    form {
+        max-width: 90%; 
+        padding: 20px;
+    }
+    
+}
+
+
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .descricao {
+        font-size: 0.9rem;
+    }
+
+    form {
+        max-width: 100%; 
+        padding: 15px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+  
